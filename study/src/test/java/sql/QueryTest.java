@@ -22,6 +22,7 @@ public class QueryTest {
 
     @Test
     void hobbyIsCoding() {
+
         createIndexQueryOfHobby();
 
         String query = "select hobby, Round(((count(*) / (select count(*) from survey_results_public)) * 100), 1) " +
