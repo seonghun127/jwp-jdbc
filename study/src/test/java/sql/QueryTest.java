@@ -21,7 +21,7 @@ public class QueryTest {
     }
 
     @Test
-    void hobbyIsCoding() {
+    void hobby() {
 
         createIndexQueryOfHobby();
 
